@@ -1,7 +1,7 @@
 *{
     font-family: sans-serif;
 }
-.banner {
+.navbar {
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50)), url("../img/background.PNG");
@@ -10,7 +10,7 @@
     background-repeat: no-repeat;
 }
 
-.navbar {
+.nav {
     width: 85%;
     margin: auto;
     padding: 3% 0;
@@ -24,25 +24,25 @@
     cursor: pointer;
 }
 
-.navbar ul {
+.nav ul {
     padding: 0;
     margin: 0;
 }
 
-.navbar ul li {
+.nav ul li {
     list-style: none;
     display: inline-block;
     margin: 0 20px;
     position: relative;
 }
 
-.navbar ul li a {
+.nav ul li a {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
 }
 
-.navbar ul li::after {
+.nav ul li::after {
     content: " ";
     height: 3px;
     width: 0;
@@ -52,7 +52,7 @@
     bottom: -10px;
     transition: 0.5s;
 }
-.navbar ul li:hover::after{
+.nav ul li:hover::after{
     width: 100%;   
 }
 .content{
